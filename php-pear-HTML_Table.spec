@@ -1,4 +1,3 @@
-c# $Revision: 1.4 $, $Date: 2002-06-30 19:43:12 $
 %include	/usr/lib/rpm/macros.php
 %define		_class		HTML
 %define		_subclass	Table
