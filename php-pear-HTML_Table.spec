@@ -2,16 +2,16 @@
 %define		_class		HTML
 %define		_subclass	Table
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - makes the design of HTML tables easy, flexible, reusable and efficient.
-Summary(pl):	%{_class}_%{_subclass} - czyni tworzenie tabel HTML ³atwym, elastycznym, efektywnym...
+Summary:	%{_class}_%{_subclass} - makes the design of HTML tables easy, flexible, reusable and efficient
+Summary(pl):	%{_class}_%{_subclass} - czyni tworzenie tabel HTML ³atwym, elastycznym, efektywnym
 Name:		php-pear-%{_pearname}
 Version:	1.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-BuildRequires:	rpm-php-pearprov
 URL:		http://pear.php.net/
+BuildRequires:	rpm-php-pearprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -26,14 +26,14 @@ design of HTML tables.
 - Tables options can be reused.
 
 %description -l pl
-Klasa PEAR::HTML_Table dostarcza metody dla ³atwego i efektywnego
+Klasa PEAR::HTML_Table dostarcza metody do ³atwego i efektywnego
 tworzenia tabel HTML.
 - wiele opcji dostosowawczych.
 - tabele mog± byæ modyfikowane w ka¿dym momencie.
-- logika jest taka sama jak w standardowych edytorach HTMLa.
-- manipulacje col i rowspans.
+- logika jest taka sama jak w standardowych edytorach HTML-a.
+- obs³uga atrybutów col i rowspans.
 - kod PHP jest krótszy, ³atwiejszy do czytania i konserwacji.
-- opcji tabel mog± byæ ponownie u¿ywane.
+- opcje tabel mog± byæ ponownie u¿ywane.
 
 %prep
 %setup -q -c
