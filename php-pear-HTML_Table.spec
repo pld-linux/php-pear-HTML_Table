@@ -26,6 +26,14 @@ design of HTML tables.
 - Tables options can be reused.
 
 %description -l pl
+Klasa PEAR::HTML_Table dostarcza metody dla ³atwego i efektywnego
+tworzenia tabel HTML.
+- wiele opcji dostosowawczych.
+- tabele mog± byæ modyfikowane w ka¿dym momencie.
+- logika jest taka sama jak w standardowych edytorach HTMLa.
+- manipulacje col i rowspans.
+- kod PHP jest krótszy, ³atwiejszy do czytania i konserwacji.
+- opcji tabel mog± byæ ponownie u¿ywane.
 
 %prep
 %setup -q -c
