@@ -2,8 +2,8 @@
 %define		_class		HTML
 %define		_subclass	Table
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - makes the design of HTML tables easy, flexible, reusable and efficient
-Summary(pl):	%{_class}_%{_subclass} - czyni tworzenie tabel HTML ³atwym, elastycznym, efektywnym
+Summary:	%{_pearname} - makes the design of HTML tables easy, flexible, reusable and efficient
+Summary(pl):	%{_pearname} - czyni tworzenie tabel HTML ³atwym, elastycznym, efektywnym
 Name:		php-pear-%{_pearname}
 Version:	1.1
 Release:	1
