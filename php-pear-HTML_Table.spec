@@ -1,6 +1,8 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		HTML
 %define		_subclass	Table
+%define		_status		stable
+
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - makes the design of HTML tables easy, flexible, reusable and efficient
 Summary(pl):	%{_pearname} - czyni tworzenie tabel HTML ³atwym, elastycznym, efektywnym
@@ -26,6 +28,8 @@ design of HTML tables.
 - PHP code is shorter, easier to read and to maintain.
 - Tables options can be reused.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Klasa PEAR::HTML_Table dostarcza metody do ³atwego i efektywnego
 tworzenia tabel HTML.
@@ -35,6 +39,8 @@ tworzenia tabel HTML.
 - obs³uga atrybutów col i rowspans.
 - kod PHP jest krótszy, ³atwiejszy do czytania i konserwacji.
 - opcje tabel mog± byæ ponownie u¿ywane.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
