@@ -29,7 +29,7 @@ design of HTML tables.
 - PHP code is shorter, easier to read and to maintain.
 - Tables options can be reused.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa PEAR::HTML_Table dostarcza metody do ³atwego i efektywnego
