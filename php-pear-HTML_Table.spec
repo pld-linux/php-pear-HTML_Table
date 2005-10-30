@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - czyni tworzenie tabel HTML ³atwym, elastycznym, efek
 Name:		php-pear-%{_pearname}
 Version:	1.6.1
 Release:	1
+Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
