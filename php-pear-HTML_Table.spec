@@ -18,7 +18,7 @@ URL:		http://pear.php.net/package/HTML_Table/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear >= 4:1.0-8.1
 Requires:	php-pear-HTML_Common >= 1.2.0
-Requires:	php-pear-PEAR
+Requires:	php-pear-PEAR-core
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
