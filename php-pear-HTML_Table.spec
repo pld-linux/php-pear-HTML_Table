@@ -15,6 +15,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	e8dcac7bddbb1921712aae959d17a573
 URL:		http://pear.php.net/package/HTML_Table/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear >= 4:1.0-8.1
 Requires:	php-pear-HTML_Common >= 1.2.0
