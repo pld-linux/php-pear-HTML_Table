@@ -5,7 +5,7 @@
 
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - makes the design of HTML tables easy, flexible, reusable and efficient
-Summary(pl.UTF-8):   %{_pearname} - czyni tworzenie tabel HTML łatwym, elastycznym, efektywnym
+Summary(pl.UTF-8):	%{_pearname} - czyni tworzenie tabel HTML łatwym, elastycznym, efektywnym
 Name:		php-pear-%{_pearname}
 Version:	1.7.5
 Release:	1
@@ -50,7 +50,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
