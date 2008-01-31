@@ -8,7 +8,7 @@ Summary:	%{_pearname} - makes the design of HTML tables easy, flexible, reusable
 Summary(pl.UTF-8):	%{_pearname} - czyni tworzenie tabel HTML łatwym, elastycznym, efektywnym
 Name:		php-pear-%{_pearname}
 Version:	1.8.2
-Release:	1
+Release:	2
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
