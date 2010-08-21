@@ -2,25 +2,22 @@
 %define		_class		HTML
 %define		_subclass	Table
 %define		_status		stable
-
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - makes the design of HTML tables easy, flexible, reusable and efficient
 Summary(pl.UTF-8):	%{_pearname} - czyni tworzenie tabel HTML łatwym, elastycznym, efektywnym
 Name:		php-pear-%{_pearname}
 Version:	1.8.3
-Release:	1
-Epoch:		0
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	f8a74eb688236a4ca3b53cae265be5f9
 URL:		http://pear.php.net/package/HTML_Table/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.5.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear >= 4:1.0-8.1
-Requires:	php-pear-HTML_Common >= 1.2.0
-Requires:	php-pear-PEAR-core >= 1:1.4.0-0.b1
+Requires:	php-pear-HTML_Common >= 1.2.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -52,7 +49,7 @@ Ta klasa ma w PEAR status: %{_status}.
 Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
-Requires:	%{name} = %{epoch}:%{version}-%{release}
+Requires:	%{name} = %{version}-%{release}
 AutoProv:	no
 AutoReq:	no
 
